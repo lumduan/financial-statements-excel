@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T05:11:41.089Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="MvVSjL6LnoTeVykQONls" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T05:30:25.672Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="4-nEgZzON4TZTkRgwJOr" version="21.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="954" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,37 @@
         <mxCell id="jdJi_D4wXLfLVCjsjEQk-0" value="เรียงงบ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="212.5" y="10" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="jdJi_D4wXLfLVCjsjEQk-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jdJi_D4wXLfLVCjsjEQk-2" target="jdJi_D4wXLfLVCjsjEQk-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jdJi_D4wXLfLVCjsjEQk-2" value="ลิส Folder ทั้งหมดที่ Download มา โดยเรียงจากน้อยไปมาก เก็บไว้ในตัวแปรลิส" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="205" y="140" width="135" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jdJi_D4wXLfLVCjsjEQk-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jdJi_D4wXLfLVCjsjEQk-6" target="jdJi_D4wXLfLVCjsjEQk-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdJi_D4wXLfLVCjsjEQk-6" value="Loop folder list&lt;br&gt;Folder สุดท้าย ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="188.75" y="450" width="167.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jdJi_D4wXLfLVCjsjEQk-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.975;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jdJi_D4wXLfLVCjsjEQk-15" target="jdJi_D4wXLfLVCjsjEQk-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdJi_D4wXLfLVCjsjEQk-15" value="เปิด excel ใน folder และ cp แต่ละ col มาลง เรียงตาม Q จากน้อยไปมาก" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdJi_D4wXLfLVCjsjEQk-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jdJi_D4wXLfLVCjsjEQk-17" target="jdJi_D4wXLfLVCjsjEQk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdJi_D4wXLfLVCjsjEQk-17" value="สร้าง excel ที่จะรวมงบทั้งหมด ขึ้นมา" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="212.5" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdJi_D4wXLfLVCjsjEQk-20" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="262.5" y="390" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
