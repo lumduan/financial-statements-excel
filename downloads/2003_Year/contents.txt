@@ -1,0 +1,16 @@
+CODE[T20039ABT31-DEC-2003]
+Period : 2003
+Quarter : Annual
+Date as of : 31-DEC-2003
+Financial Statement Type : Audited
+Account Type : Company and consolidated
+Language : THAI
+File Name Format  : XXXXXXT1.ZZZ
+      XXXXXX : Security symbol (length 2-6 charactors)
+      T      : LANGUAGE (T = Thai/E = English)
+      1      : Content ID
+               Content ID descriptions following
+               1 : รายงานผู้สอบบัญชี
+               2 : งบการเงิน (งบดุล งบกำไรขาดทุน งบแสดงการเปลี่ยนแปลงในส่วนของผู้ถือหุ้น  งบกำไร  (ขาดทุน)สะสม  และงบกระแสเงินสด)
+               3 : หมายเหตุประกอบงบการเงิน
+      ZZZ    : File Extension (.DOC, .XLS, .TXT)

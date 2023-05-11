@@ -1,0 +1,16 @@
+CODE[T20041RBT31-MAR-2004]
+Period : 2004
+Quarter : 1
+Date as of : 31-MAR-2004
+Financial Statement Type : Reviewed
+Account Type : Company and consolidated
+Language : THAI
+File Name Format  : XXXXXXT1.ZZZ
+      XXXXXX : Security symbol (length 2-6 charactors)
+      T      : LANGUAGE (T = Thai/E = English)
+      1      : Content ID
+               Content ID descriptions following
+               1 : รายงานผู้สอบบัญชี
+               2 : งบการเงิน (งบดุล งบกำไรขาดทุน งบแสดงการเปลี่ยนแปลงในส่วนของผู้ถือหุ้น  งบกำไร  (ขาดทุน)สะสม  และงบกระแสเงินสด)
+               3 : หมายเหตุประกอบงบการเงิน
+      ZZZ    : File Extension (.DOC, .XLS, .TXT)
